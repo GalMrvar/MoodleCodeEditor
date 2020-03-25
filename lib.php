@@ -40,7 +40,7 @@ class codearea_texteditor extends texteditor {
     }
 
     public function get_preferred_format() {
-        return FORMAT_MOODLE;
+        return FORMAT_PLAIN;
     }
 
     public function supports_repositories() {
