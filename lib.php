@@ -32,11 +32,7 @@ class codearea_texteditor extends texteditor {
     }
 
     public function get_supported_formats() {
-        return array(FORMAT_HTML     => FORMAT_HTML,
-                     FORMAT_MOODLE   => FORMAT_MOODLE,
-                     FORMAT_PLAIN    => FORMAT_PLAIN,
-                     FORMAT_MARKDOWN => FORMAT_MARKDOWN,
-                    );
+        return array(FORMAT_PLAIN => FORMAT_PLAIN);
     }
 
     public function get_preferred_format() {
