@@ -17,12 +17,12 @@
 /**
  * Privacy Subsystem implementation for editor_textarea.
  *
- * @package    editor_textarea
+ * @package    editor_codearea
  * @copyright  2018 Andrew Nicols <andrew@nicols.co.uk>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-namespace editor_textarea\privacy;
+namespace editor_codearea\privacy;
 
 defined('MOODLE_INTERNAL') || die();
 
