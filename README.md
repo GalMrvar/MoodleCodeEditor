@@ -1,5 +1,5 @@
-# MoodleCodeEditor
-Moodle code editor
+# codearea
+code editor for moodle
 
 # Install editor:
 
