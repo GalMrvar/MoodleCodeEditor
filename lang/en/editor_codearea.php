@@ -24,5 +24,5 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['pluginname'] = 'Plain text area';
-$string['privacy:metadata'] = 'The Plain text area editor plugin does not store any personal data.';
+$string['pluginname'] = 'code text area';
+$string['privacy:metadata'] = 'The code text area editor plugin does not store any personal data.';
