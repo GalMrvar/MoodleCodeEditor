@@ -26,7 +26,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-class textarea_texteditor extends texteditor {
+class codearea_texteditor extends texteditor {
     public function supported_by_browser() {
         return true;
     }
