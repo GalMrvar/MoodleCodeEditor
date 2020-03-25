@@ -19,7 +19,7 @@
  * Failsafe textarea editor support.
  *
  * @package    editor
- * @subpackage textarea
+ * @subpackage codearea
  * @copyright  2009 Petr Skoda (http://skodak.org)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -49,7 +49,7 @@ class textarea_texteditor extends texteditor {
 
     public function use_editor($elementid, array $options=null, $fpoptions=null) {
 		global $PAGE;
-		$PAGE->requires->js( new moodle_url($CFG->wwwroot . '/lib/editor/textarea/javascript/main.js') );
+		$PAGE->requires->js( new moodle_url($CFG->wwwroot . '/lib/editor/codearea/javascript/main.js') );
         return;
     }
 }
